@@ -1,0 +1,1 @@
+{"name":"section-23-next","version":"1.0.0","description":"udemy course follow along","main":"index.js","scripts":{"dev":"next","build":"next build","start":"next start"},"author":{"name":"Nikola Muncan"},"license":"ISC","dependencies":{"next":"^9.3.6","react":"^16.13.1","react-dom":"^16.13.1"},"readme":"ERROR: No README data found!","_id":"section-23-next@1.0.0"}
