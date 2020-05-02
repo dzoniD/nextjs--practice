@@ -102,13 +102,17 @@ module.exports =
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "C:\\Users\\Nikola\\Desktop\\radovi\\Udemy Kurs\\Section 23-Next.js\\components\\User.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 const user = props => __jsx("div", {
+  className: "jsx-3754276164",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
@@ -116,6 +120,7 @@ const user = props => __jsx("div", {
     columnNumber: 5
   }
 }, __jsx("h1", {
+  className: "jsx-3754276164",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
@@ -123,13 +128,17 @@ const user = props => __jsx("div", {
     columnNumber: 9
   }
 }, props.name), __jsx("p", {
+  className: "jsx-3754276164",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6,
     columnNumber: 9
   }
-}, "Age: ", props.age));
+}, "Age: ", props.age), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  id: "3754276164",
+  __self: undefined
+}, "div.jsx-3754276164{border:1px solid #eee;box-shadow:0 2px 3px #ccc;padding:20px;text-align:center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcTmlrb2xhXFxEZXNrdG9wXFxyYWRvdmlcXFVkZW15IEt1cnNcXFNlY3Rpb24gMjMtTmV4dC5qc1xcY29tcG9uZW50c1xcVXNlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFNb0IsQUFHdUMsc0JBQ0ksMEJBQ2QsYUFDTSxrQkFDdEIiLCJmaWxlIjoiQzpcXFVzZXJzXFxOaWtvbGFcXERlc2t0b3BcXHJhZG92aVxcVWRlbXkgS3Vyc1xcU2VjdGlvbiAyMy1OZXh0LmpzXFxjb21wb25lbnRzXFxVc2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcclxuXHJcbmNvbnN0IHVzZXIgPSAocHJvcHMpID0+IChcclxuICAgIDxkaXY+XHJcbiAgICAgICAgPGgxPntwcm9wcy5uYW1lfTwvaDE+XHJcbiAgICAgICAgPHA+QWdlOiB7cHJvcHMuYWdlfTwvcD5cclxuICAgICAgICA8c3R5bGUganN4PntgXHJcbiAgICAgICAgICAgIGRpdiB7XHJcbiAgICAgICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAjZWVlO1xyXG4gICAgICAgICAgICAgICAgYm94LXNoYWRvdzogMCAycHggM3B4ICNjY2M7XHJcbiAgICAgICAgICAgICAgICBwYWRkaW5nOjIwcHg7XHJcbiAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICA8L2Rpdj5cclxuKTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IHVzZXI7Il19 */\n/*@ sourceURL=C:\\\\Users\\\\Nikola\\\\Desktop\\\\radovi\\\\Udemy Kurs\\\\Section 23-Next.js\\\\components\\\\User.js */"));
 
 /* harmony default export */ __webpack_exports__["default"] = (user);
 
@@ -201,6 +210,17 @@ module.exports = __webpack_require__(/*! C:\Users\Nikola\Desktop\radovi\Udemy Ku
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "styled-jsx/style":
+/*!***********************************!*\
+  !*** external "styled-jsx/style" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-jsx/style");
 
 /***/ })
 
